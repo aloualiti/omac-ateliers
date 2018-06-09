@@ -17,7 +17,6 @@ def add_customer(customer_name):
     customers_list.append(customer_name)
     return customer_name + " added to the list"
    
-
 def reserve_room(hotel_name, customer_name):
     for hotel in hotels_list:
         if hotel['hotel_name']==hotel_name:
